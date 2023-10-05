@@ -14,6 +14,8 @@ Create a multi-package repo<sup><em>(speed)</em></sup><br>
 
 ## Built-in tools
 
+- [changesets](https://github.com/changesets/changesets) - A tool to manage your versioning and changelogs
+
 - [commitlint](https://commitlint.js.org/) - Helps you adhere to a commit convention
 
 - [eslint](https://eslint.org/) - The pluggable linting utility
