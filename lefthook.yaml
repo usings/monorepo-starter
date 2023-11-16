@@ -2,6 +2,9 @@
 #   Refer for explanation to following link:
 #   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
 #
+skip_output:
+  - meta
+  - skips
 
 pre-commit:
   commands:
