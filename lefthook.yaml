@@ -5,6 +5,7 @@
 skip_output:
   - meta
   - skips
+  - execution
 
 pre-commit:
   commands:
