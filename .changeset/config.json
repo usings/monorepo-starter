@@ -1,11 +1,8 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@2.2.0/schema.json",
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "access": "public",
+  "baseBranch": "main",
   "changelog": false,
   "commit": false,
-  "fixed": [],
-  "linked": [],
-  "access": "restricted",
-  "baseBranch": "main",
-  "updateInternalDependencies": "patch",
-  "ignore": []
+  "updateInternalDependencies": "patch"
 }

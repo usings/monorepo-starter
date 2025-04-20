@@ -1,5 +1,3 @@
-import { defineFlatConfig, presetBasic } from 'eslint-presets'
+import { defineConfig } from '@witheslint/core'
 
-export default defineFlatConfig([
-  presetBasic({ enableTs: true }),
-])
+export default defineConfig()

@@ -1,9 +1,7 @@
 <br>
 
 <p align="center">
-  <a href="https://eslint.org/">
-    <img src="https://api.iconify.design/fluent-emoji:leaf-fluttering-in-wind.svg" alt="ESLint" align="center" width="33%" height="33%" />
-  </a>
+  <img src="https://api.iconify.design/fluent-emoji:leaf-fluttering-in-wind.svg" alt="" align="center" width="33%" height="33%" />
 </p>
 
 <p align='center'>
@@ -13,6 +11,8 @@ Create a multi-package repo<sup><em>(speed)</em></sup><br>
 <br>
 
 ## Built-in tools
+
+- [changesets](https://github.com/changesets/changesets) - A tool to manage your versioning and changelogs
 
 - [commitlint](https://commitlint.js.org/) - Helps you adhere to a commit convention
 

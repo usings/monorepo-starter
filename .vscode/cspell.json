@@ -1,0 +1,13 @@
+{
+  "ignorePaths": [
+    "node_modules",
+    "dist"
+  ],
+  "words": [
+    "arrayify",
+    "commitlint",
+    "esbuild",
+    "lefthook",
+    "witheslint"
+  ]
+}
