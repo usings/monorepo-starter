@@ -1,9 +1,7 @@
 <br>
 
 <p align="center">
-  <a href="https://eslint.org/">
-    <img src="https://api.iconify.design/fluent-emoji:leaf-fluttering-in-wind.svg" alt="ESLint" align="center" width="33%" height="33%" />
-  </a>
+  <img src="https://api.iconify.design/fluent-emoji:leaf-fluttering-in-wind.svg" alt="" align="center" width="33%" height="33%" />
 </p>
 
 <p align='center'>
@@ -12,16 +10,15 @@ Create a multi-package repo<sup><em>(speed)</em></sup><br>
 
 <br>
 
-## Built-in tools
+## Why use this?
 
-- [commitlint](https://commitlint.js.org/) - Helps you adhere to a commit convention
+**Ready-to-use**: Pre-configured workspace with TypeScript, linting, commit rules, and version management—start coding instantly.
 
-- [eslint](https://eslint.org/) - The pluggable linting utility
+**Consistency**: Unified code style, commits, and Git hooks for smooth team collaboration.
 
-- [lefthook](https://github.com/evilmartians/lefthook) - Fast and powerful Git hooks manager
+**Versioning**: Lerna Lite handles unified version bumps and changelog generation effortlessly.
 
-
-<br>
+**Dependencies**: pnpm workspaces for fast installs and clear, organized package management.
 
 ## Try it now!
 

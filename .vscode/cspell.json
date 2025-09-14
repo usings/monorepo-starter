@@ -1,0 +1,14 @@
+{
+  "ignorePaths": [
+    "node_modules",
+    "dist"
+  ],
+  "words": [
+    "changelogithub",
+    "commitlint",
+    "esbuild",
+    "lefthook",
+    "unrs",
+    "witheslint"
+  ]
+}

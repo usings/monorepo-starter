@@ -1,11 +1,23 @@
-# dependencies
+# -----------------------------
+# dependencies & build
+# -----------------------------
 node_modules
-
-# distribute
 dist
+.cache
 
-# macOS-specific
+# -----------------------------
+# system files
+# -----------------------------
 .DS_Store
+Thumbs.db
 
-# IDE-specific
+# -----------------------------
+# IDE / Editor
+# -----------------------------
 .idea
+
+# -----------------------------
+# logs & local files
+# -----------------------------
+*.log
+*.local

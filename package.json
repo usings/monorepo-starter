@@ -1,23 +1,25 @@
 {
-  "name": "monorepo",
-  "version": "0.0.0",
-  "private": true,
+  "name": "root",
   "type": "module",
-  "license": "MIT",
-  "description": "monorepo starter",
-  "packageManager": "pnpm@8.8.0",
+  "private": true,
+  "packageManager": "pnpm@10.16.0",
   "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.0.0"
+    "node": "^20.18.0 || >=22.10.0"
+  },
+  "scripts": {
+    "prepare": "lefthook install",
+    "release": "lerna version"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
-    "@commitlint/cli": "^17.7.2",
-    "@commitlint/config-conventional": "^17.7.0",
-    "eslint": "^8.50.0",
-    "eslint-presets": "^2.2.0",
-    "lefthook": "^1.5.0",
-    "typescript": "^5.2.2",
-    "unbuild": "^2.0.0"
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@lerna-lite/cli": "^4.7.3",
+    "@lerna-lite/version": "^4.7.3",
+    "@types/node": "^22",
+    "@witheslint/core": "^1.22.0",
+    "eslint": "^9.35.0",
+    "lefthook": "^1.13.0",
+    "tsdown": "^0.15.1",
+    "typescript": "~5.9.2"
   }
 }
